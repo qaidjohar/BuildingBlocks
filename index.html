@@ -1,0 +1,400 @@
+<!--
+
+Author: Qaidjohar Jawadwala
+Email: qaidjawadwala [at] gmail [dot] com
+
+License: Everyone can use this code, learn it extend it...Do whatever good you want...
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+	<title>Building Blocks</title>
+	<link rel="stylesheet" href="styles/jquery.mobile-1.4.0.min.css">
+	<script src="scripts/jquery-2.1.0.min.js" ></script>
+	<script src="scripts/jquery.mobile-1.4.0.min.js"></script>
+	
+	<link rel="stylesheet" href="styles/myStyle.css">
+	</head>
+	
+	<body>
+	<div data-role="page" id="cover">
+	<div data-position="fixed" data-role="header">
+		By: VIIT Firefox Club
+	</div>
+	<div data-role="content">
+		<div align="center">
+			<h1 class="heading">Building Blocks</h1>
+			<br></br>
+			<a href="#intro" data-transition="flip" data-role="button">Introduction</a>
+			<a href="#page1" data-transition="flip" data-role="button">Check Box</a>
+			<a href="#page2" data-transition="flip" data-role="button">Radio Button</a>
+			<a href="#page3" data-transition="flip" data-role="button">Slider</a>
+			<a href="#page4" data-transition="flip" data-role="button">Collapsible</a>
+			<a href="#page5" data-transition="flip" data-role="button">FlipSwitch</a>
+			<a href="#page6" data-transition="flip" data-role="button">Navigation Bar</a>
+			<a href="#page7" data-transition="flip" data-role="button">Panel</a>	
+			
+		</div>
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<!--<a href="" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#intro" data-transition="flip" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>-->
+	</div>
+	</div>
+	
+	<div data-role="page" id="intro">
+	<div data-position="fixed" data-role="header" >
+		Building Blocks
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">Introduction</h1>
+		<div align="left">
+			This Application will give you an Introduction to some of the basic constructs which you can use for developing your own Firefox OS Application
+			<hr></hr><br></br>
+			<b>Requirements:</b><br></br>
+			1. Need to have basic knowledge of HTML,JavaScript and CSS.<br></br>
+			2. The app uses jquery to give an app like look.<br></br>
+			<div style="line-height:60%">
+			3. jquery files used are:<br></br>
+			&nbsp;&nbsp;a) jquery.mobile-1.4.0.min.css<br></br>
+			&nbsp;&nbsp;b) jquery-2.1.0.min.js<br></br>
+			&nbsp;&nbsp;c) jquery.mobile-1.4.0.min.js<br></br>
+			</div>
+			<hr></hr><br></br>
+			<b>Developer:</b><br></br>
+			This App has been developed by members of VIIT Firefox Club.<br></br>
+			<div style="line-height:60%">
+			Hash Tag:<br></br>&nbsp;&nbsp;#ViitFirefoxClub<br></br>&nbsp;&nbsp;#firefoxstudents
+			</div>		
+			<br></br>	
+			Website:https://wiki.mozilla.org/VIIT_Firefox_Club<br></br>
+			
+		</div>
+		
+	</div>
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#cover" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page1" data-transition="flip" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>
+	</div>
+	
+	
+	<div data-role="page" id="page1">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">CheckBox</h1>
+		<div align="left">
+			<label><input type="checkbox" name="chkbox1">Checkbox-1</input></label>
+			<label><input type="checkbox" name="chkbox2">Checkbox-2</input></label>
+			<label><input type="checkbox" name="chkbox3">Checkbox-3</input></label>	
+			<br />
+			<hr />
+			<p>
+				<b>Code:</b><br>
+				<div style="line-height:00%">
+				<table width="100" border="1">
+					<tr>
+						<td>
+							<b>
+							<xmp><input type="checkbox" name="chkbox1"></xmp><br />
+							<xmp>Any Text</input></xmp>
+							</b>
+						</td>					
+					</tr>			
+				</table>
+				</div>		
+			</p>
+		</div>
+		
+	</div>
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#cover" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page2" data-transition="slide" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>
+	
+	
+	<div data-role="page" id="page2">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">Radio Button</h1>
+		<div align="left">
+			<label><input type="radio" name="radio1">Radio-1</input></label>
+			<label><input type="radio" name="radio1">Radio-2</input></label>
+			<label><input type="radio" name="radio1">Radio-3</input></label>	
+			<br />
+			<hr />
+			<p>
+				<b>Code:</b><br>
+				<div style="line-height:00%">
+				<table width="100" border="1">
+					<tr>
+						<td>
+							<b>
+							<xmp><input type="radio" name="radio1"></xmp><br />
+							<xmp>Any Text</input></xmp>
+							</b>
+						</td>					
+					</tr>			
+				</table>
+				</div>		
+			</p>
+		</div>
+		
+	</div>
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page1" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page3" data-transition="slideup" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>
+	
+	
+	
+	<div data-role="page" id="page3">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">Slider</h1>
+		<div align="left">
+			<input type="range" min="0" max="100">Range</input>
+		</div>		
+	</div>
+	<br />
+			<hr />
+			<p>
+				<b>Code:</b><br>
+				<div style="line-height:00%">
+				<table width="100" border="1">
+					<tr>
+						<td>
+							<b>
+							<xmp><input type="range" min="0" max="100"></xmp><br />
+							<xmp>Any Text</input></xmp>
+							</b>
+						</td>					
+					</tr>			
+				</table>
+				</div>		
+			</p>
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page2" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page4" data-transition="slidedown" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>
+	
+	
+	
+	<div data-role="page" id="page4">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">Collapsible</h1>
+		<div align="left">
+			<div data-role="collapsible">
+					<h4>This is Heading</h4>
+						This is Content.
+			</div>
+		</div>
+	</div>
+	<br />
+			<hr />
+			<p>
+				<b>Code:</b><br>
+				<div style="line-height:00%">
+				<table width="100" border="1">
+					<tr>
+						<td>
+							<b>
+							<xmp><div data-role="collapsible"></xmp><br />
+							<xmp>  <h4>This is Heading</h4></xmp><br />
+							<xmp>    This is Content</xmp><br />
+							<xmp></div></xmp>
+							</b>
+						</td>					
+					</tr>			
+				</table>
+				</div>		
+			</p>	
+	
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page3" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page5" data-transition="pop" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>	
+	
+	
+	
+	<div data-role="page" id="page5">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">FlipSwitch</h1>
+		<div align="left">
+			<select id="select-based-flipswitch" data-role="flipswitch">
+				<option value="on">ON</option>
+				<option value="off">OFF</option>			
+			</select>
+		</div>
+	</div>
+
+	<br />
+			<hr />
+			<p>
+				<b>Code:</b><br>
+				<div style="line-height:00%">
+				<table width="100" border="1">
+					<tr>
+						<td>
+							<b>
+							<xmp><select id="select-based-flipswitch"</xmp>
+							<br /><xmp>data-role="flipswitch"></xmp><br />
+							<xmp>  <option value="on">ON</option></xmp><br />
+							<xmp>  <option value="off">OFF</option></xmp><br />
+							<xmp></select></xmp>
+							</b>
+						</td>					
+					</tr>			
+				</table>
+				</div>		
+			</p>		
+	
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page4" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page6" data-transition="fade" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>	
+	
+	
+	
+	
+	<div data-role="page" id="page6">
+		<div data-role="header">
+			<div data-role="navbar">
+			<ul>
+				<li><a href="" data-icon="phone" data-iconpos="top" >One</a></li>
+				<li><a href="" data-icon="mail" data-iconpos="top" >Two</a></li>			
+			</ul>
+			
+			</div>
+	</div>
+	<div data-role="content">
+	<div align="center">
+		<h1 class="heading">Navigation Bar</h1>
+		<div align="left">
+			
+		</div>
+	</div>
+	
+	<br />
+	<hr />
+	<p>
+	<b>Code:</b><br>
+	<div style="line-height:00%">
+	<table width="100" border="1">
+	<tr>
+		<td>
+		<xmp><div data-role="header"></xmp><br />
+		<xmp> <div data-role="navbar"></xmp><br />
+		<xmp>  <ul></xmp><br />
+		<xmp>   <li><a href="#link">One</a></li></xmp><br />
+		<xmp>   <li><a href="#link">Two</a></li></xmp><br />
+		<xmp>  </ul></xmp><br />
+		<xmp> </div></xmp><br />
+		<xmp></div></xmp>
+		</td>					
+	</tr>			
+	</table>
+	</div>		
+	</p>		
+	
+	
+	
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page5" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#page7" data-transition="flip" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>	
+	
+	
+	
+<div data-role="page" id="page7">
+		<div data-role="header">
+		Building Blocks	
+	</div>
+	<div data-role="content">
+	<div align="left">
+		<h1 class="heading">Panel</h1>
+		<div data-role="panel" id="mypanel" data-position="left" data-display="overlay">
+					<label><input type="radio" name="radio1">Head</input></label>
+			<label><input type="radio" name="radio1">Coordinator</input></label>
+			<label><input type="checkbox" name="chkbox1">Firefox</input></label>
+			<label><input type="checkbox" name="chkbox2">VIIT</input></label>
+			My name is Qaidjohar
+		</div>
+		<a href="#mypanel">Open the Panel</a>
+	</div>
+	
+	<br />
+	<hr />
+	<p>
+	<b>Code:</b><br>
+	<div style="line-height:00%">
+	<table width="100" border="1">
+	<tr>
+		<td>
+		<xmp><div data-role="panel" id="mypanel"></xmp><br />
+		<xmp> Type all HTML you want</xmp><br />
+		<xmp> to display in Panel</xmp><br />
+		<xmp></div></xmp><br />
+		<xmp><a href="#mypanel">Open the Panel</a></xmp>
+		
+		</td>					
+	</tr>			
+	</table>
+	</div>		
+	</p>			
+	
+	
+	</div>
+	<div data-position="fixed" data-role="footer" align="center">
+		<a href="#page6" data-inline="true" data-icon="arrow-l" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="home" data-iconpos="notext" data-role="button">Yoyo Google</a>
+		<a href="#cover" data-inline="true" data-icon="arrow-r" data-iconpos="notext" data-role="button">Yoyo Google</a>
+	</div>	
+	</div>		
+	
+	
+	
+		</body>
+</html>
